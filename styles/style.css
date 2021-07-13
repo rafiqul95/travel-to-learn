@@ -1,0 +1,49 @@
+/* --------------
+  common styes rules
+  ------------------- */
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* ---------------
+   Header
+------------------  */
+
+li{
+    list-style: none;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF7675, 100 %;
+}
+
+.contact-detail li{
+    display: inline;
+    margin-right: 15px;
+    align-items: center;
+}
+.contact-detail li i{
+    margin-right: 5px;
+}
+.login{
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    align-items: center;
+}
+
+.navbar{
+    justify-content: space-between;
+}
+.logo img{
+    widht: 50px;
+    height: 60px;
+   
+}
+.navbar li{
+    display: inline;
+}
